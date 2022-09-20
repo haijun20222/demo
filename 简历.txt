@@ -1,0 +1,12 @@
+  熟练使用C/C ++语言，了解汇编语言，有扎实的编程基础和一定的编程经验;
+  熟悉uboot 移值 linux 内核裁剪，根文件系统定制。
+  熟悉Linux字符设备驱动框架以及平台设备框架。
+  熟悉Linux体系及实现原理，包括内存管理、进程管理、I/O系统、网络系统等。
+  熟悉linux中断机制，文件操作，并发控制。
+  熟悉常用硬件接口：GPIO、USART、SPI、IIC、RS232、RS485、8080等。
+  熟悉BSP框架的搭建,以及网络文件系统的挂载，制作虚拟磁盘RAMDISK。
+  熟悉Git的软件版本管理技巧;
+  熟练掌握source insight，secuCRT，compare，KEIL，robotframe等开发工具；
+  了解freeRTOS实时操作系统；
+  熟悉常用的调试手段，GDB调试。
+  英语四级

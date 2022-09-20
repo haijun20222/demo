@@ -1,0 +1,1 @@
+cmd_/home/yhai/win_share/share/demo/led/step4实现ioctl/led.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o /home/yhai/win_share/share/demo/led/step4实现ioctl/led.ko /home/yhai/win_share/share/demo/led/step4实现ioctl/led.o /home/yhai/win_share/share/demo/led/step4实现ioctl/led.mod.o ;  true

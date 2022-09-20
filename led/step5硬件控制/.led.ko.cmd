@@ -1,0 +1,1 @@
+cmd_/home/yhai/win_share/share/demo/led/step5硬件控制/led.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o /home/yhai/win_share/share/demo/led/step5硬件控制/led.ko /home/yhai/win_share/share/demo/led/step5硬件控制/led.o /home/yhai/win_share/share/demo/led/step5硬件控制/led.mod.o ;  true

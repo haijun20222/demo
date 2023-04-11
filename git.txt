@@ -1,0 +1,16 @@
+https://blog.csdn.net/yjw123456/article/details/119696726
+【突发】解决remote: Support for password authentication was removed on August 13, 2021. Please use a perso
+
+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
+git remote set-url origin https://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@github.com/haijun20222/demo.git
+git clone  https://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@github.com/haijun20222/demo.git
+user:haijun20222
+passwd:chj07097817
+
+
+
+  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
+
+
+git clone  https://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@github.com/haijun20222/demo.git
+

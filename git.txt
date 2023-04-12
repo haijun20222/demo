@@ -9,8 +9,10 @@ passwd:chj07097817
 
 
 
-  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
+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
 
 
-git clone  https://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@github.com/haijun20222/demo.git
+git remote set-url origin https://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@github.com/haijun20222/demo.git
+
+git clone  https://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@github.com/haijun20222/demo.git
 

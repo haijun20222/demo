@@ -11,14 +11,13 @@ int b = 0;
 
 void fun_a()
 {
-    while (1)
-    {
-    pthread_mutex_lock(&mutex_a);
-    //pthread_mutex_lock(&mutex_b);
-    a++;
-    printf("a:%d \r\n",a);
-    //pthread_mutex_unlock(&mutex_a);
-    usleep(1000);
+    while (1) {
+        pthread_mutex_lock(&mutex_a);
+        //pthread_mutex_lock(&mutex_b);
+        a++;
+        printf("a:%d \r\n", a);
+        //pthread_mutex_unlock(&mutex_a);
+        usleep(1000);
     }
     return 0;
 }
@@ -26,11 +25,12 @@ void fun_a()
 
 void fun_b()
 {
-    while (1)
-    {
-        pthread_mutex_lock(&mutex_a);
+    while (1) {
+        if (a == b) {
+        }
+        pthread_mutex_lock(&mutex_a, NULL);
         a++;
-        printf("a:%d \r\n",a);
+        printf("a:%d \r\n", a);
         pthread_mutex_unlock(&mutex_a);
         usleep(1000);
     }
@@ -46,11 +46,11 @@ void test_lock()
     pthread_t pt_b;
 
     pthread_mutex_init(&mutex);
-    pthread_create(&pt_a,NULL,fun_a,NULL);
-    pthread_create(&pt_a,NULL,fun_b,NULL);
+    pthread_create(&pt_a, NULL, fun_a, NULL);
+    pthread_create(&pt_a, NULL, fun_b, NULL);
 
-    pthread_join(pt_a,NULL);
-    pthread_join(pt_b,NULL);
+    pthread_join(pt_a, NULL);
+    pthread_join(pt_b, NULL);
 
 }
 

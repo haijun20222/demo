@@ -3,7 +3,6 @@ OBJ 			:=main
 OUTPATH 		:=./obj
 SRC_PATH		:=./api\
 				 ./usr
-		  		
 HEAD_PATH		:=./include\
 				  ./api
 #找到所有.c文件

@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+                "/usr/local/include/cjson/**"
+            ],
+            "defines": []
+        }
+    ],
+    "version": 4
+}
